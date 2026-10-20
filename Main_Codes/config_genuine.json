@@ -1,0 +1,14 @@
+{
+  "data_mode": "genuine",
+  "xfoil_csv": "xfoil_polars.csv",
+  "flight_csv": null,
+  "S": 16.0,
+  "b": 11.0,
+  "W": 10000.0,
+  "rate": 2.0,
+  "cal_camber": [0, 2, 4, 6, 8],
+  "cal_angle": [10, 35, 60, 85, 110],
+  "serial_port": null,
+  "use_ai": true,
+  "output_dir": "acam_output_genuine"
+}
