@@ -1,0 +1,10 @@
+test,expected,got,result
+air_density(0),1.225,1.2250,PASS
+air_density(3048),~0.905,0.9046,PASS
+"true_speed(100, rho(3048))",~116,116.37,PASS
+"required_cl(1,...)",0.408,0.408,PASS
+"required_cl(2,...)",0.816,0.816,PASS
+pick_camber sweep CL 0.2->1.0,never decreases,monotonic,PASS
+step 0->8 through shape_command,<= 0.20 per step,max 0.200,PASS
+NaN airspeed input,"held, then -> 4 after 2 s","held=True, final=4.09",PASS
+simulated flight,no STALL_WARNING,"0 warnings, max rate 1.77%/s",PASS
