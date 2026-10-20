@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# If your conda environment folder is inside the project directory:
+env/
+venv/
+.env/
