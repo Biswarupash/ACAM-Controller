@@ -1,7 +1,6 @@
 # ACAM-Controller
 Here, we include all the codes and data associated with this project.
 
-
 ACAM Controller - adaptive camber wing controller
 =================================================
 Implements Steps 1-14 of "ACAM Controller: Coder's Guide" (Lucas Fawcett).
