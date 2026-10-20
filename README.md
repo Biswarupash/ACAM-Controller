@@ -1,7 +1,7 @@
 # ACAM-Controller
 Here, we include all the codes and data associated with this project.
 
-"""
+
 ACAM Controller - adaptive camber wing controller
 =================================================
 Implements Steps 1-14 of "ACAM Controller: Coder's Guide" (Lucas Fawcett).
@@ -36,5 +36,3 @@ USAGE
   python acam_controller.py --data-mode genuine --xfoil xfoil_polars.csv --S 16 --b 10 --W 10000
   
   python acam_controller.py --config acam_config.json --ai
-  
-"""
