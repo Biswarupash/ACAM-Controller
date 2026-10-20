@@ -32,6 +32,9 @@ OUTPUT
 USAGE
 -----
   python acam_controller.py --data-mode random
+  
   python acam_controller.py --data-mode genuine --xfoil xfoil_polars.csv --S 16 --b 10 --W 10000
+  
   python acam_controller.py --config acam_config.json --ai
+  
 """
