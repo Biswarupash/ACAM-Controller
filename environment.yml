@@ -1,0 +1,11 @@
+name: pythonenv_3.15
+channels:
+  - defaults
+dependencies:
+  - python=3.15
+  - matplotlib
+  - scikit-learn
+  - numpy
+  - pandas
+  - pyserial
+prefix: /home/biswarup/anaconda3/envs/pythonenv_3.15
